@@ -129,7 +129,7 @@ If anyone wish to customize his/her terminal theme as mine then he/she can do th
 - Find out `oh-my-posh` theme directory. i.e:
 
 ```sh
-C:\Users\{your_username}\Documents\WindowsPowerShell\Modules\oh-my-posh\themes
+C:\Users\{Your User Name}\.oh-my-posh\themes
 ```
 - Select the right json theme file. i.e: `hotstick.minimal.omp.json` and open it with any editor.
 - Erase everything from the json theme file. Open my json theme [settings](./Terminal%20Theme%20Settings/hotstick.minimal.omp.json) file. Copy all the settings and paste them to your theme settings file. Save it and simply close it.
