@@ -82,7 +82,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 ```
 
-All are set. Now It's time to see all the installed theme those we can use as our default terminal theme. To see them copy and paste the command to windows terminal.
+All are set. Make sure, you reloaded the terminal or simply just close and reopen it. Now It's time to see all the installed theme those we can use as our default terminal theme. To see them copy and paste the command to windows terminal.
 
 ```sh
 Get-PoshThemes
@@ -121,7 +121,7 @@ Set-PoshPrompt -Theme hotstick.minimal
 ```
 
 ### Customize Terminal Theme (Optional)
-If anyone wish to customize his/her terminal theme as mine then he/she can do through updating `{themename}.json` file. I'm providing my one here.
+If anyone wish to customize his/her terminal theme as mine then he/she can do by updating `{themename}.json` file. I'm providing my one here.
 
 - `settings.json` file will be found here: [Theme settings.josn](./Terminal%20Theme%20Settings/hotstick.minimal.omp.json)
 
@@ -129,8 +129,13 @@ If anyone wish to customize his/her terminal theme as mine then he/she can do th
 - Find out `oh-my-posh` theme directory. i.e:
 
 ```sh
-C:\Users\{Your User Name}\.oh-my-posh\themes
+C:\Users\{User Name}\.oh-my-posh\themes
 ```
+Or, in Windows 11
+```sh
+C:\Users\{User Name}\AppData\Local\oh-my-posh\themes
+```
+
 - Select the right json theme file. i.e: `hotstick.minimal.omp.json` and open it with any editor.
 - Erase everything from the json theme file. Open my json theme [settings](./Terminal%20Theme%20Settings/hotstick.minimal.omp.json) file. Copy all the settings and paste them to your theme settings file. Save it and simply close it.
 
